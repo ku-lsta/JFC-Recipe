@@ -1,5 +1,21 @@
 # JFC-Recipe: A Dataset for Nutrient Estimation from Japanese User-Generated Cooking Recipes
 
+## Annotation files
+
+- annotation.csv
+  - recipeID: recipe ID in the original dataset
+  - Num. of servings: number of servings of the recipe
+  - ID: food item ID
+  - Food name: name of the food item
+  - Amount: amount of the ingredient
+  - Unit: counting unit of the ingredient
+- conversion.csv
+  - ID: food item ID
+  - Food name: name of the food item
+  - 無単位 ... g
+    - gram per unit
+    - "-1" means the (food item, unit) pair is not annotated
+
 ## Citing JFC-Recipe (TBA)
 
 ```
