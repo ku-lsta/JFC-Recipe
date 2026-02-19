@@ -1,5 +1,9 @@
 # JFC-Recipe: A Dataset for Nutrient Estimation from Japanese User-Generated Cooking Recipes
 
+Japanese Food Composition Recipe (JFC-Recipe) is a novel dataset for nutrient estimation from recipes.
+- based on 1,985 Japanese recipes from [Cookpad dataset](https://www.nii.ac.jp/dsc/idr/cookpad/) (in Japanese).
+- each ingredient corresponds to a food item in [the Standards Tables of Food Composition in Japan (日本食品標準成分表)](https://www.mext.go.jp/a_menu/syokuhinseibun/mext_01110.html) (in Japanese).
+
 ## Annotation files
 
 - annotation.csv
